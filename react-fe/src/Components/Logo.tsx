@@ -3,7 +3,6 @@ import { Link, LinkProps } from 'react-router-dom';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 import Hat from '@/assets/xmas-hat.png';
-import { Image } from './Components/Image';
 import { styled } from 'styled-components';
 
 type LogoProps = {
@@ -45,7 +44,7 @@ animation: Gradient 8s ease-in infinite 2s;
     background-position: 100% 50%;
   }
 }
-`;
+`; 
 
 export const Logo = ({
   to = '',
